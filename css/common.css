@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* ===========================================
+
+=========================================== */
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+p,
+li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+}
+
+ol{
+  list-style: none;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.twitter {
+  width: 40px;
+  height: 40px;
+}
+
+.instagram {
+  width: 36px;
+  height: 36px;
+}
+
+.view-more {
+  display: inline-block;
+  border: 1px solid #000;
+}
+
+.view-more a{
+  display: inline-block;
+  padding: 16px 64px;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
